@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ActivityListComponent } from './activity-list/activity-list.component';
 import { MapComponent } from './map/map.component';
 import { ActivityService } from "./services/activity.service";
+import { RouterModule } from "@angular/router";
+import { appRoutes } from "../routes";
 
 
 @NgModule({
@@ -15,10 +17,14 @@ import { ActivityService } from "./services/activity.service";
     MapComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule
   ],
   providers: [
     ActivityService
+  ],
+  exports: [
+      RouterModule
   ],
   bootstrap: [AppComponent]
 })
