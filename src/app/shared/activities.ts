@@ -13,7 +13,7 @@ export const SAVED_ACTIVITIES: IActivity[] = [
         "id": 2,
         "name": 'Industrial Park',
         "date": new Date('06/04/2017'),
-        "gpxData": '../../assets/gpx/1.gpx',
+        "gpxData": '../../assets/gpx/2.gpx',
         "distance": 1.2,
         "comments": 'Cool and windy.'
     },
@@ -21,7 +21,7 @@ export const SAVED_ACTIVITIES: IActivity[] = [
         "id": 3,
         "name": 'Forest Route',
         "date": new Date('06/05/2017'),
-        "gpxData": '../../assets/gpx/2.gpx',
+        "gpxData": '../../assets/gpx/3.gpx',
         "distance": 3.2,
         "comments": 'Evening run.'
     },

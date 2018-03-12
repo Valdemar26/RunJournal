@@ -8,6 +8,7 @@ import { MapComponent } from './map/map.component';
 import { ActivityService } from "./services/activity.service";
 import { RouterModule } from "@angular/router";
 import { appRoutes } from "../routes";
+import { MapService } from "./services/map.service";
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { appRoutes } from "../routes";
     RouterModule.forRoot(appRoutes)
   ],
   providers: [
-    ActivityService
+    ActivityService,
+    MapService
   ],
   exports: [
       RouterModule
