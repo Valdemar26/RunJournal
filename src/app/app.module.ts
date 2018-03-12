@@ -18,7 +18,7 @@ import { appRoutes } from "../routes";
   ],
   imports: [
     BrowserModule,
-    RouterModule
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [
     ActivityService
